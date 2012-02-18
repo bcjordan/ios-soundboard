@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33CA06714EB149F006A499B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33CA06614EB149F006A499B /* AVFoundation.framework */; };
+		D33CA06A14EB1595006A499B /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = D33CA06914EB1594006A499B /* test.wav */; };
+		D33CA06C14EB17AD006A499B /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = D33CA06B14EB17AD006A499B /* duck.wav */; };
 		D3847CA414E9EE7100168E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3847CA314E9EE7100168E61 /* UIKit.framework */; };
 		D3847CA614E9EE7100168E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3847CA514E9EE7100168E61 /* Foundation.framework */; };
 		D3847CA814E9EE7100168E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3847CA714E9EE7100168E61 /* CoreGraphics.framework */; };
@@ -15,22 +18,35 @@
 		D3847CB414E9EE7100168E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3847CB314E9EE7100168E61 /* AppDelegate.m */; };
 		D3847CB714E9EE7100168E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3847CB614E9EE7100168E61 /* ViewController.m */; };
 		D3847CBA14E9EE7100168E61 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3847CB814E9EE7100168E61 /* ViewController.xib */; };
+		D3E327DB14EDB42B00123744 /* at_test.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DA14EDB42B00123744 /* at_test.gif */; };
+		D3E327DE14EDB66C00123744 /* finn.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DD14EDB66C00123744 /* finn.png */; };
+		D3E327E214EDB97F00123744 /* iceking.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DF14EDB97F00123744 /* iceking.png */; };
+		D3E327E314EDB97F00123744 /* jake.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E014EDB97F00123744 /* jake.png */; };
+		D3E327E414EDB97F00123744 /* lumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E114EDB97F00123744 /* lumpy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33CA06614EB149F006A499B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D33CA06914EB1594006A499B /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = test.wav; path = AdventureBoard/test.wav; sourceTree = "<group>"; };
+		D33CA06B14EB17AD006A499B /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = "<group>"; };
 		D3847C9F14E9EE7100168E61 /* AdventureBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3847CA314E9EE7100168E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3847CA514E9EE7100168E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3847CA714E9EE7100168E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D3847CAB14E9EE7100168E61 /* AdventureBoard-Info.plist */ = {isa = PBXFileReference; path = "AdventureBoard-Info.plist"; sourceTree = "<group>"; };
+		D3847CAB14E9EE7100168E61 /* AdventureBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureBoard-Info.plist"; sourceTree = "<group>"; };
 		D3847CAD14E9EE7100168E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3847CAF14E9EE7100168E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3847CB114E9EE7100168E61 /* AdventureBoard-Prefix.pch */ = {isa = PBXFileReference; path = "AdventureBoard-Prefix.pch"; sourceTree = "<group>"; };
-		D3847CB214E9EE7100168E61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3847CB114E9EE7100168E61 /* AdventureBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventureBoard-Prefix.pch"; sourceTree = "<group>"; };
+		D3847CB214E9EE7100168E61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3847CB314E9EE7100168E61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3847CB514E9EE7100168E61 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D3847CB514E9EE7100168E61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D3847CB614E9EE7100168E61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D3847CB914E9EE7100168E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D3E327DA14EDB42B00123744 /* at_test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = at_test.gif; sourceTree = "<group>"; };
+		D3E327DD14EDB66C00123744 /* finn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finn.png; sourceTree = "<group>"; };
+		D3E327DF14EDB97F00123744 /* iceking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceking.png; sourceTree = "<group>"; };
+		D3E327E014EDB97F00123744 /* jake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jake.png; sourceTree = "<group>"; };
+		D3E327E114EDB97F00123744 /* lumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lumpy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33CA06714EB149F006A499B /* AVFoundation.framework in Frameworks */,
 				D3847CA414E9EE7100168E61 /* UIKit.framework in Frameworks */,
 				D3847CA614E9EE7100168E61 /* Foundation.framework in Frameworks */,
 				D3847CA814E9EE7100168E61 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +67,8 @@
 		D3847C9414E9EE7100168E61 = {
 			isa = PBXGroup;
 			children = (
+				D33CA06914EB1594006A499B /* test.wav */,
+				D33CA06614EB149F006A499B /* AVFoundation.framework */,
 				D3847CA914E9EE7100168E61 /* AdventureBoard */,
 				D3847CA214E9EE7100168E61 /* Frameworks */,
 				D3847CA014E9EE7100168E61 /* Products */,
@@ -91,6 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				D3847CAB14E9EE7100168E61 /* AdventureBoard-Info.plist */,
+				D3E327DF14EDB97F00123744 /* iceking.png */,
+				D3E327E014EDB97F00123744 /* jake.png */,
+				D3E327E114EDB97F00123744 /* lumpy.png */,
+				D33CA06B14EB17AD006A499B /* duck.wav */,
+				D3E327DA14EDB42B00123744 /* at_test.gif */,
+				D3E327DD14EDB66C00123744 /* finn.png */,
 				D3847CAC14E9EE7100168E61 /* InfoPlist.strings */,
 				D3847CAF14E9EE7100168E61 /* main.m */,
 				D3847CB114E9EE7100168E61 /* AdventureBoard-Prefix.pch */,
@@ -150,6 +175,13 @@
 			files = (
 				D3847CAE14E9EE7100168E61 /* InfoPlist.strings in Resources */,
 				D3847CBA14E9EE7100168E61 /* ViewController.xib in Resources */,
+				D33CA06A14EB1595006A499B /* test.wav in Resources */,
+				D33CA06C14EB17AD006A499B /* duck.wav in Resources */,
+				D3E327DB14EDB42B00123744 /* at_test.gif in Resources */,
+				D3E327DE14EDB66C00123744 /* finn.png in Resources */,
+				D3E327E214EDB97F00123744 /* iceking.png in Resources */,
+				D3E327E314EDB97F00123744 /* jake.png in Resources */,
+				D3E327E414EDB97F00123744 /* lumpy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +308,7 @@
 				D3847CBF14E9EE7100168E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
