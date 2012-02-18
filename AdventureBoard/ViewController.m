@@ -28,6 +28,7 @@
     finnPoint.x = finnPoint.x + slider.value * 350 - 150;
     finnPoint.y = 815;
     [finn setCenter:finnPoint];
+    [someLabel setText:[NSString stringWithFormat:@"Volume %d? Great job.", sliderValue]];
 }
 
 -(IBAction)aboutThisApp:(id)sender
@@ -44,12 +45,11 @@
 {
     UIButton *theButton = (UIButton *) sender;
     NSLog(@"You pressed the button %@", theButton.currentTitle);
-    
+
     if( [theButton.currentTitle isEqualToString:@"Click me!"]){
         [[[UIAlertView alloc] initWithTitle:@"You bozo" message:@"You're stupid" delegate:self cancelButtonTitle:@"ok, I'll fix it" otherButtonTitles:nil] show];
     }
     else if ([theButton.currentTitle isEqualToString:@"Second button!"]){
-        [someLabel setText:@"Britney... is that you?"];
         AVAudioPlayer *play = [_soundPlayers valueForKey:@"Quack!"];
         if (play != nil){
             [play play];
@@ -83,23 +83,28 @@
 {
     // Construct audio loading error
     NSError *error;
-    
+
     [super viewDidLoad];
 
     // Use hash of filenames to titles to build soundboard buttons
     NSMutableDictionary *textToFilename = [NSMutableDictionary dictionary];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack2!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack3!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack4!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack5!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack6!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack7!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack8!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack9!"];
-    [textToFilename setValue:@"duck.wav" forKey:@"Quack10!"];
 
-    _soundPlayers = [NSMutableDictionary dictionaryWithCapacity:[textToFilename count]];
+    // Build hash using files from |SOUND_DIR| directory
+    NSString *bundleRoot = [[NSBundle mainBundle] bundlePath];
+    NSFileManager *manager = [NSFileManager defaultManager];
+    NSDirectoryEnumerator *directoryEnumerator = [manager enumeratorAtPath:bundleRoot];
+
+    NSString *fileName;
+    NSString *title;
+    
+    while((fileName = [directoryEnumerator nextObject])) {
+        NSLog(@"Adding file %@", fileName);
+        if([fileName hasSuffix:@".mp3"] || [fileName hasSuffix:@".wav"]){
+            title = [[fileName stringByReplacingOccurrencesOfString:@".mp3" withString:@""]
+                               stringByReplacingOccurrencesOfString:@".wav" withString:@""];
+            [textToFilename setValue:fileName forKey:title];
+        }
+    }
 
     const float INIT_X = 50.0;
     const float INIT_Y = 250.0;
@@ -108,15 +113,21 @@
     const float COL_MARGIN = 20.0;
     const float ROW_MARGIN = 20.0;
     const int BUTTONS_PER_ROW = 3;
+    const float BUTTON_FONT_SIZE = 70.0;
     
     int row = 0;
     int col = 0;
-    
+
+    _soundPlayers = [NSMutableDictionary dictionaryWithCapacity:[textToFilename count]];
+
     for (NSString *title in [textToFilename allKeys]) {
         // Construct |AVAudioPlayer| with sound file
         NSString *fileName = [textToFilename valueForKey:title];
-        NSURL *urlPathOfAudio = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], fileName]];
+        NSURL *urlPathOfAudio = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@",
+                                                                                  [[NSBundle mainBundle] resourcePath],
+                                                                                  fileName]];
         AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:urlPathOfAudio error:&error];
+        [player prepareToPlay];
         [_soundPlayers setValue:player forKey:title];
         NSLog(@"Loaded %@ with description %@", fileName, title);
 
@@ -129,6 +140,8 @@
                 BUTTON_WIDTH,
                 BUTTON_HEIGHT);
         [newButton setTitle:title forState:UIControlStateNormal];
+        newButton.titleLabel.font = [UIFont systemFontOfSize:BUTTON_FONT_SIZE];
+        newButton.titleLabel.adjustsFontSizeToFitWidth = YES;
         [newButton addTarget:self action:@selector(playAudioForTitle:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:newButton];
         [self.view sendSubviewToBack:newButton];
@@ -144,7 +157,7 @@
         NSLog(@"Constructed button %@ at col %i row %i", title, col, row);
     }
 
-    // TODO: Construct any Tim and Eric animated .gifs
+    // TODO: Show an animated gif for fun
     // Use method from http://www.alterplay.com/ios-dev-tips/2010/12/making-gif-animating-on-ios.html
 }
 
@@ -159,6 +172,8 @@
         NSLog(@"Could not play audio for button %@", title);
     }
     NSLog(@"Playing audio for button %@", title);
+
+    [someLabel setText:title];
 }
 - (void)viewDidUnload
 {
