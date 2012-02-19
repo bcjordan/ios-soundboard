@@ -89,50 +89,42 @@
     // Use hash of filenames to titles to build soundboard buttons
     NSMutableDictionary *textToFilename = [NSMutableDictionary dictionary];
 
-//    NSArray* soundClips = [[NSBundle mainBundle] pathsForResourcesOfType:@"mp3" inDirectory:nil];
-//    NSLog(@"%@", soundClips);
-
-    // Build hash using files from |SOUND_DIR| directory
-    NSString *bundleRoot = [[NSBundle mainBundle] bundlePath];
-    NSFileManager *manager = [NSFileManager defaultManager];
-    NSDirectoryEnumerator *directoryEnumerator = [manager enumeratorAtPath:bundleRoot];
-
-    NSString *fileName;
-    NSString *title;
-
-    while((fileName = [directoryEnumerator nextObject])) {
-        NSLog(@"Adding file %@", fileName);
-        if([fileName hasSuffix:@".mp3"] || [fileName hasSuffix:@".wav"]){
-            title = [[fileName stringByReplacingOccurrencesOfString:@".mp3" withString:@""]
-                               stringByReplacingOccurrencesOfString:@".wav" withString:@""];
-            [textToFilename setValue:fileName forKey:title];
-        }
-    }
+    NSArray* soundClips = [[NSBundle mainBundle] pathsForResourcesOfType:@"mp3" inDirectory:nil];
+    NSLog(@"%@", soundClips);
 
     const float INIT_X = 50.0;
     const float INIT_Y = 250.0;
     const float BUTTON_WIDTH = 200.0;
-    const float BUTTON_HEIGHT = 100.0;
-    const float COL_MARGIN = 20.0;
-    const float ROW_MARGIN = 20.0;
+    const float BUTTON_HEIGHT = 40.0;
+    const float COL_MARGIN = 10.0;
+    const float ROW_MARGIN = 10.0;
     const int BUTTONS_PER_ROW = 3;
-    const float BUTTON_FONT_SIZE = 70.0;
+    const float BUTTON_FONT_SIZE = 30.0;
     
     int row = 0;
     int col = 0;
 
     _soundPlayers = [NSMutableDictionary dictionaryWithCapacity:[textToFilename count]];
 
-    for (NSString *title in [textToFilename allKeys]) {
+    for (NSString *clipPath in soundClips) {
+        NSURL *urlPathOfAudio = [NSURL fileURLWithPath:clipPath];
+
+        // Get filename to use as button title
+        //
+        //
+
+        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"(^.+[*/])|(.mp3)"
+                                                                               options:NSRegularExpressionCaseInsensitive
+                                                                                 error:&error];
+        NSString *title = [regex stringByReplacingMatchesInString:clipPath options:0 range:NSMakeRange(0, [clipPath length]) withTemplate:@""];
+
         // Construct |AVAudioPlayer| with sound file
-        NSString *fileName = [textToFilename valueForKey:title];
-        NSURL *urlPathOfAudio = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@",
-                                                                                  [[NSBundle mainBundle] resourcePath],
-                                                                                  fileName]];
+        NSLog(@"%@", title);
+
         AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:urlPathOfAudio error:&error];
         [player prepareToPlay];
         [_soundPlayers setValue:player forKey:title];
-        NSLog(@"Loaded %@ with description %@", fileName, title);
+        NSLog(@"Loaded %@ with description %@", clipPath, title);
 
         // Construct titled button, given current row and col
         UIButton *newButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
