@@ -89,6 +89,9 @@
     // Use hash of filenames to titles to build soundboard buttons
     NSMutableDictionary *textToFilename = [NSMutableDictionary dictionary];
 
+//    NSArray* soundClips = [[NSBundle mainBundle] pathsForResourcesOfType:@"mp3" inDirectory:nil];
+//    NSLog(@"%@", soundClips);
+
     // Build hash using files from |SOUND_DIR| directory
     NSString *bundleRoot = [[NSBundle mainBundle] bundlePath];
     NSFileManager *manager = [NSFileManager defaultManager];
@@ -96,7 +99,7 @@
 
     NSString *fileName;
     NSString *title;
-    
+
     while((fileName = [directoryEnumerator nextObject])) {
         NSLog(@"Adding file %@", fileName);
         if([fileName hasSuffix:@".mp3"] || [fileName hasSuffix:@".wav"]){

@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D33CA06714EB149F006A499B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33CA06614EB149F006A499B /* AVFoundation.framework */; };
+		D365003614F077B000E7548F /* absolutely.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365002B14F077B000E7548F /* absolutely.mp3 */; };
+		D365003714F077B000E7548F /* hi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365002C14F077B000E7548F /* hi.mp3 */; };
+		D365003814F077B000E7548F /* how are you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365002D14F077B000E7548F /* how are you.mp3 */; };
+		D365003914F077B000E7548F /* I did.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365002E14F077B000E7548F /* I did.mp3 */; };
+		D365003A14F077B000E7548F /* I guess so!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365002F14F077B000E7548F /* I guess so!.mp3 */; };
+		D365003B14F077B000E7548F /* I have!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365003014F077B000E7548F /* I have!.mp3 */; };
+		D365003C14F077B000E7548F /* if I were not....mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365003114F077B000E7548F /* if I were not....mp3 */; };
+		D365003D14F077B000E7548F /* my goodness, yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365003214F077B000E7548F /* my goodness, yes.mp3 */; };
+		D365003E14F077B000E7548F /* no, I have not.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365003314F077B000E7548F /* no, I have not.mp3 */; };
+		D365003F14F077B000E7548F /* yes!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365003414F077B000E7548F /* yes!.mp3 */; };
+		D365004014F077B000E7548F /* yes?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D365003514F077B000E7548F /* yes?.mp3 */; };
 		D3847CA414E9EE7100168E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3847CA314E9EE7100168E61 /* UIKit.framework */; };
 		D3847CA614E9EE7100168E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3847CA514E9EE7100168E61 /* Foundation.framework */; };
 		D3847CA814E9EE7100168E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3847CA714E9EE7100168E61 /* CoreGraphics.framework */; };
@@ -21,22 +32,21 @@
 		D3E327E214EDB97F00123744 /* iceking.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DF14EDB97F00123744 /* iceking.png */; };
 		D3E327E314EDB97F00123744 /* jake.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E014EDB97F00123744 /* jake.png */; };
 		D3E327E414EDB97F00123744 /* lumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E114EDB97F00123744 /* lumpy.png */; };
-		D3E327E414EDB97F00123746 /* takei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123745 /* takei.mp3 */; };
-		D3E327E414EDB97F00123749 /* absolutely.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123748 /* absolutely.mp3 */; };
-		D3E327E414EDB97F0012374B /* hi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012374A /* hi.mp3 */; };
-		D3E327E414EDB97F0012374D /* how are you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012374C /* how are you.mp3 */; };
-		D3E327E414EDB97F0012374F /* I did.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012374E /* I did.mp3 */; };
-		D3E327E414EDB97F00123751 /* I guess so!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123750 /* I guess so!.mp3 */; };
-		D3E327E414EDB97F00123753 /* I have!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123752 /* I have!.mp3 */; };
-		D3E327E414EDB97F00123755 /* if I were not....mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123754 /* if I were not....mp3 */; };
-		D3E327E414EDB97F00123757 /* my goodness, yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123756 /* my goodness, yes.mp3 */; };
-		D3E327E414EDB97F00123759 /* no, I have not.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123758 /* no, I have not.mp3 */; };
-		D3E327E414EDB97F0012375B /* yes!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012375A /* yes!.mp3 */; };
-		D3E327E414EDB97F0012375D /* yes?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012375C /* yes?.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D33CA06614EB149F006A499B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D365002B14F077B000E7548F /* absolutely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = absolutely.mp3; sourceTree = "<group>"; };
+		D365002C14F077B000E7548F /* hi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hi.mp3; sourceTree = "<group>"; };
+		D365002D14F077B000E7548F /* how are you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how are you.mp3"; sourceTree = "<group>"; };
+		D365002E14F077B000E7548F /* I did.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I did.mp3"; sourceTree = "<group>"; };
+		D365002F14F077B000E7548F /* I guess so!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I guess so!.mp3"; sourceTree = "<group>"; };
+		D365003014F077B000E7548F /* I have!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I have!.mp3"; sourceTree = "<group>"; };
+		D365003114F077B000E7548F /* if I were not....mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "if I were not....mp3"; sourceTree = "<group>"; };
+		D365003214F077B000E7548F /* my goodness, yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "my goodness, yes.mp3"; sourceTree = "<group>"; };
+		D365003314F077B000E7548F /* no, I have not.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "no, I have not.mp3"; sourceTree = "<group>"; };
+		D365003414F077B000E7548F /* yes!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yes!.mp3"; sourceTree = "<group>"; };
+		D365003514F077B000E7548F /* yes?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yes?.mp3"; sourceTree = "<group>"; };
 		D3847C9F14E9EE7100168E61 /* AdventureBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3847CA314E9EE7100168E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3847CA514E9EE7100168E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,18 +65,6 @@
 		D3E327DF14EDB97F00123744 /* iceking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceking.png; sourceTree = "<group>"; };
 		D3E327E014EDB97F00123744 /* jake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jake.png; sourceTree = "<group>"; };
 		D3E327E114EDB97F00123744 /* lumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lumpy.png; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123745 /* takei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = takei.mp3; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123748 /* absolutely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = absolutely.mp3; path = takei/absolutely.mp3; sourceTree = "<group>"; };
-		D3E327E414EDB97F0012374A /* hi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hi.mp3; path = takei/hi.mp3; sourceTree = "<group>"; };
-		D3E327E414EDB97F0012374C /* how are you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "how are you.mp3"; path = "takei/how are you.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F0012374E /* I did.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I did.mp3"; path = "takei/I did.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123750 /* I guess so!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I guess so!.mp3"; path = "takei/I guess so!.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123752 /* I have!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I have!.mp3"; path = "takei/I have!.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123754 /* if I were not....mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "if I were not....mp3"; path = "takei/if I were not....mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123756 /* my goodness, yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "my goodness, yes.mp3"; path = "takei/my goodness, yes.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F00123758 /* no, I have not.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "no, I have not.mp3"; path = "takei/no, I have not.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F0012375A /* yes!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "yes!.mp3"; path = "takei/yes!.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F0012375C /* yes?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "yes?.mp3"; path = "takei/yes?.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D365002A14F077B000E7548F /* takei */ = {
+			isa = PBXGroup;
+			children = (
+				D365002B14F077B000E7548F /* absolutely.mp3 */,
+				D365002C14F077B000E7548F /* hi.mp3 */,
+				D365002D14F077B000E7548F /* how are you.mp3 */,
+				D365002E14F077B000E7548F /* I did.mp3 */,
+				D365002F14F077B000E7548F /* I guess so!.mp3 */,
+				D365003014F077B000E7548F /* I have!.mp3 */,
+				D365003114F077B000E7548F /* if I were not....mp3 */,
+				D365003214F077B000E7548F /* my goodness, yes.mp3 */,
+				D365003314F077B000E7548F /* no, I have not.mp3 */,
+				D365003414F077B000E7548F /* yes!.mp3 */,
+				D365003514F077B000E7548F /* yes?.mp3 */,
+			);
+			path = takei;
+			sourceTree = "<group>";
+		};
 		D3847C9414E9EE7100168E61 = {
 			isa = PBXGroup;
 			children = (
@@ -128,18 +144,7 @@
 		D3847CAA14E9EE7100168E61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3E327E414EDB97F0012375C /* yes?.mp3 */,
-				D3E327E414EDB97F0012375A /* yes!.mp3 */,
-				D3E327E414EDB97F00123758 /* no, I have not.mp3 */,
-				D3E327E414EDB97F00123756 /* my goodness, yes.mp3 */,
-				D3E327E414EDB97F00123754 /* if I were not....mp3 */,
-				D3E327E414EDB97F00123750 /* I guess so!.mp3 */,
-				D3E327E414EDB97F0012374E /* I did.mp3 */,
-				D3E327E414EDB97F00123752 /* I have!.mp3 */,
-				D3E327E414EDB97F0012374C /* how are you.mp3 */,
-				D3E327E414EDB97F0012374A /* hi.mp3 */,
-				D3E327E414EDB97F00123748 /* absolutely.mp3 */,
-				D3E327E414EDB97F00123745 /* takei.mp3 */,
+				D365002A14F077B000E7548F /* takei */,
 				D3847CAB14E9EE7100168E61 /* AdventureBoard-Info.plist */,
 				D3E327DF14EDB97F00123744 /* iceking.png */,
 				D3E327E014EDB97F00123744 /* jake.png */,
@@ -210,18 +215,17 @@
 				D3E327E214EDB97F00123744 /* iceking.png in Resources */,
 				D3E327E314EDB97F00123744 /* jake.png in Resources */,
 				D3E327E414EDB97F00123744 /* lumpy.png in Resources */,
-				D3E327E414EDB97F00123746 /* takei.mp3 in Resources */,
-				D3E327E414EDB97F00123749 /* absolutely.mp3 in Resources */,
-				D3E327E414EDB97F0012374B /* hi.mp3 in Resources */,
-				D3E327E414EDB97F0012374D /* how are you.mp3 in Resources */,
-				D3E327E414EDB97F0012374F /* I did.mp3 in Resources */,
-				D3E327E414EDB97F00123751 /* I guess so!.mp3 in Resources */,
-				D3E327E414EDB97F00123753 /* I have!.mp3 in Resources */,
-				D3E327E414EDB97F00123755 /* if I were not....mp3 in Resources */,
-				D3E327E414EDB97F00123757 /* my goodness, yes.mp3 in Resources */,
-				D3E327E414EDB97F00123759 /* no, I have not.mp3 in Resources */,
-				D3E327E414EDB97F0012375B /* yes!.mp3 in Resources */,
-				D3E327E414EDB97F0012375D /* yes?.mp3 in Resources */,
+				D365003614F077B000E7548F /* absolutely.mp3 in Resources */,
+				D365003714F077B000E7548F /* hi.mp3 in Resources */,
+				D365003814F077B000E7548F /* how are you.mp3 in Resources */,
+				D365003914F077B000E7548F /* I did.mp3 in Resources */,
+				D365003A14F077B000E7548F /* I guess so!.mp3 in Resources */,
+				D365003B14F077B000E7548F /* I have!.mp3 in Resources */,
+				D365003C14F077B000E7548F /* if I were not....mp3 in Resources */,
+				D365003D14F077B000E7548F /* my goodness, yes.mp3 in Resources */,
+				D365003E14F077B000E7548F /* no, I have not.mp3 in Resources */,
+				D365003F14F077B000E7548F /* yes!.mp3 in Resources */,
+				D365004014F077B000E7548F /* yes?.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
