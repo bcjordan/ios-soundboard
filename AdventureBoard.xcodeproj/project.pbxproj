@@ -32,6 +32,67 @@
 		D3E327E214EDB97F00123744 /* iceking.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DF14EDB97F00123744 /* iceking.png */; };
 		D3E327E314EDB97F00123744 /* jake.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E014EDB97F00123744 /* jake.png */; };
 		D3E327E414EDB97F00123744 /* lumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E114EDB97F00123744 /* lumpy.png */; };
+		D3E327E414EDB97F00123746 /* nonplussed.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123745 /* nonplussed.gif */; };
+		D3E327E414EDB97F00123748 /* leading.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123747 /* leading.gif */; };
+		D3E327E414EDB97F0012374A /* surprised.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123749 /* surprised.gif */; };
+		D3E327E414EDB97F0012374C /* visionary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012374B /* visionary.jpg */; };
+		D3E327E414EDB97F0012374E /* content.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012374D /* content.gif */; };
+		D3E327E414EDB97F00123750 /* in studio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012374F /* in studio.jpg */; };
+		D3E327E414EDB97F00123752 /* happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123751 /* happy.jpg */; };
+		D3E327E414EDB97F00123754 /* screaming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123753 /* screaming.jpg */; };
+		D3E327E414EDB97F00123756 /* trek.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123755 /* trek.png */; };
+		D3E327E414EDB97F00123758 /* trek 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123757 /* trek 2.png */; };
+		D3E327E414EDB97F0012375A /* futurama.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123759 /* futurama.png */; };
+		D3E327E414EDB97F0012375C /* haha 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012375B /* haha 1.mp3 */; };
+		D3E327E414EDB97F0012375E /* haha 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012375D /* haha 2.mp3 */; };
+		D3E327E414EDB97F00123760 /* haha 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012375F /* haha 3.mp3 */; };
+		D3E327E414EDB97F00123762 /* haha 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123761 /* haha 4.mp3 */; };
+		D3E327E414EDB97F00123764 /* haha 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123763 /* haha 5.mp3 */; };
+		D3E327E414EDB97F00123766 /* haha 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123765 /* haha 6.mp3 */; };
+		D3E327E414EDB97F00123768 /* haha 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123767 /* haha 7.mp3 */; };
+		D3E327E414EDB97F0012376A /* haha 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123769 /* haha 8.mp3 */; };
+		D3E327E414EDB97F0012376C /* haha 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012376B /* haha 9.mp3 */; };
+		D3E327E414EDB97F0012376E /* haha 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012376D /* haha 10.mp3 */; };
+		D3E327E414EDB97F00123770 /* haha 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012376F /* haha 11.mp3 */; };
+		D3E327E414EDB97F00123772 /* haha 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123771 /* haha 12.mp3 */; };
+		D3E327E414EDB97F00123774 /* haha 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123773 /* haha 13.mp3 */; };
+		D3E327E414EDB97F00123776 /* haha 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123775 /* haha 14.mp3 */; };
+		D3E327E414EDB97F00123778 /* haha 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123777 /* haha 15.mp3 */; };
+		D3E327E414EDB97F0012377A /* and a big one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123779 /* and a big one.mp3 */; };
+		D3E327E414EDB97F0012377C /* ok let's hear it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012377B /* ok let's hear it.mp3 */; };
+		D3E327E414EDB97F0012377E /* I don't mean it sexually.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012377D /* I don't mean it sexually.mp3 */; };
+		D3E327E414EDB97F00123780 /* the American way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012377F /* the American way.mp3 */; };
+		D3E327E414EDB97F00123782 /* well I'm coming from a whole different perspective.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123781 /* well I'm coming from a whole different perspective.mp3 */; };
+		D3E327E414EDB97F00123784 /* well I've certainly already paid more than 10 dollars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123783 /* well I've certainly already paid more than 10 dollars.mp3 */; };
+		D3E327E414EDB97F00123786 /* what posessed you?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123785 /* what posessed you?.mp3 */; };
+		D3E327E414EDB97F00123788 /* that's what you get.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123787 /* that's what you get.mp3 */; };
+		D3E327E414EDB97F0012378A /* I see the soul of this man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123789 /* I see the soul of this man.mp3 */; };
+		D3E327E414EDB97F0012378C /* oh, I have been in love with him!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012378B /* oh, I have been in love with him!.mp3 */; };
+		D3E327E414EDB97F0012378E /* I suspect that it's more substantial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012378D /* I suspect that it's more substantial.mp3 */; };
+		D3E327E414EDB97F00123790 /* I think there may be a little bit of that.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012378F /* I think there may be a little bit of that.mp3 */; };
+		D3E327E414EDB97F00123792 /* it was very difficult to believe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123791 /* it was very difficult to believe.mp3 */; };
+		D3E327E414EDB97F00123794 /* aren't you for equality?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123793 /* aren't you for equality?.mp3 */; };
+		D3E327E414EDB97F00123796 /* vivacity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123795 /* vivacity.mp3 */; };
+		D3E327E414EDB97F00123798 /* sexual oritentation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123797 /* sexual oritentation.mp3 */; };
+		D3E327E414EDB97F0012379A /* sexually, yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123799 /* sexually, yeah.mp3 */; };
+		D3E327E414EDB97F0012379C /* sensuality.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012379B /* sensuality.mp3 */; };
+		D3E327E414EDB97F0012379E /* multi-lingual capacity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012379D /* multi-lingual capacity.mp3 */; };
+		D3E327E414EDB97F001237A0 /* assets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F0012379F /* assets.mp3 */; };
+		D3E327E414EDB97F001237A2 /* character.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237A1 /* character.mp3 */; };
+		D3E327E414EDB97F001237A4 /* macho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237A3 /* macho.mp3 */; };
+		D3E327E414EDB97F001237A6 /* The Green Berets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237A5 /* The Green Berets.mp3 */; };
+		D3E327E414EDB97F001237A8 /* Carmen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237A7 /* Carmen.mp3 */; };
+		D3E327E414EDB97F001237AA /* Bobby Brown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237A9 /* Bobby Brown.mp3 */; };
+		D3E327E414EDB97F001237AC /* John Wayne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237AB /* John Wayne.mp3 */; };
+		D3E327E414EDB97F001237AE /* I have high regard for his good taste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237AD /* I have high regard for his good taste.mp3 */; };
+		D3E327E414EDB97F001237B0 /* he was reading the newspaper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237AF /* he was reading the newspaper.mp3 */; };
+		D3E327E414EDB97F001237B2 /* you're opinionated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B1 /* you're opinionated.mp3 */; };
+		D3E327E414EDB97F001237B4 /* this is what makes America great.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B3 /* this is what makes America great.mp3 */; };
+		D3E327E414EDB97F001237B6 /* embellish a little bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B5 /* embellish a little bit.mp3 */; };
+		D3E327E414EDB97F001237B8 /* of course I am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B7 /* of course I am.mp3 */; };
+		D3E327E414EDB97F001237BA /* you wanna say something?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B9 /* you wanna say something?.mp3 */; };
+		D3E327E414EDB97F001237BC /* magnificent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237BB /* magnificent.mp3 */; };
+		D3E327E414EDB97F001237BE /* futurama 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237BD /* futurama 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +126,67 @@
 		D3E327DF14EDB97F00123744 /* iceking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceking.png; sourceTree = "<group>"; };
 		D3E327E014EDB97F00123744 /* jake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jake.png; sourceTree = "<group>"; };
 		D3E327E114EDB97F00123744 /* lumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lumpy.png; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123745 /* nonplussed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nonplussed.gif; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123747 /* leading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leading.gif; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123749 /* surprised.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = surprised.gif; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012374B /* visionary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = visionary.jpg; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012374D /* content.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = content.gif; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012374F /* in studio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "in studio.jpg"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123751 /* happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpg; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123753 /* screaming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screaming.jpg; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123755 /* trek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trek.png; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123757 /* trek 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trek 2.png"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123759 /* futurama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama.png; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012375B /* haha 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 1.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012375D /* haha 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 2.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012375F /* haha 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 3.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123761 /* haha 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 4.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123763 /* haha 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 5.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123765 /* haha 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 6.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123767 /* haha 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 7.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123769 /* haha 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 8.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012376B /* haha 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 9.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012376D /* haha 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 10.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012376F /* haha 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 11.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123771 /* haha 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 12.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123773 /* haha 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 13.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123775 /* haha 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 14.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123777 /* haha 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "haha 15.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123779 /* and a big one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "and a big one.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012377B /* ok let's hear it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ok let's hear it.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012377D /* I don't mean it sexually.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I don't mean it sexually.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012377F /* the American way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the American way.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123781 /* well I'm coming from a whole different perspective.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "well I'm coming from a whole different perspective.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123783 /* well I've certainly already paid more than 10 dollars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "well I've certainly already paid more than 10 dollars.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123785 /* what posessed you?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "what posessed you?.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123787 /* that's what you get.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "that's what you get.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123789 /* I see the soul of this man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I see the soul of this man.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012378B /* oh, I have been in love with him!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh, I have been in love with him!.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012378D /* I suspect that it's more substantial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I suspect that it's more substantial.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012378F /* I think there may be a little bit of that.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I think there may be a little bit of that.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123791 /* it was very difficult to believe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "it was very difficult to believe.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123793 /* aren't you for equality?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aren't you for equality?.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123795 /* vivacity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivacity.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123797 /* sexual oritentation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sexual oritentation.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F00123799 /* sexually, yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sexually, yeah.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012379B /* sensuality.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sensuality.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012379D /* multi-lingual capacity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "multi-lingual capacity.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F0012379F /* assets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assets.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237A1 /* character.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = character.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237A3 /* macho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macho.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237A5 /* The Green Berets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Green Berets.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237A7 /* Carmen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Carmen.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237A9 /* Bobby Brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bobby Brown.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237AB /* John Wayne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "John Wayne.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237AD /* I have high regard for his good taste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I have high regard for his good taste.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237AF /* he was reading the newspaper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "he was reading the newspaper.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237B1 /* you're opinionated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you're opinionated.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237B3 /* this is what makes America great.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "this is what makes America great.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237B5 /* embellish a little bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "embellish a little bit.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237B7 /* of course I am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "of course I am.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237B9 /* you wanna say something?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you wanna say something?.mp3"; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237BB /* magnificent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = magnificent.mp3; sourceTree = "<group>"; };
+		D3E327E414EDB97F001237BD /* futurama 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futurama 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +207,67 @@
 		D365002A14F077B000E7548F /* takei */ = {
 			isa = PBXGroup;
 			children = (
+				D3E327E414EDB97F001237BD /* futurama 2.png */,
+				D3E327E414EDB97F001237BB /* magnificent.mp3 */,
+				D3E327E414EDB97F001237B9 /* you wanna say something?.mp3 */,
+				D3E327E414EDB97F001237B7 /* of course I am.mp3 */,
+				D3E327E414EDB97F001237B5 /* embellish a little bit.mp3 */,
+				D3E327E414EDB97F001237B3 /* this is what makes America great.mp3 */,
+				D3E327E414EDB97F001237B1 /* you're opinionated.mp3 */,
+				D3E327E414EDB97F001237AF /* he was reading the newspaper.mp3 */,
+				D3E327E414EDB97F001237AD /* I have high regard for his good taste.mp3 */,
+				D3E327E414EDB97F001237AB /* John Wayne.mp3 */,
+				D3E327E414EDB97F001237A9 /* Bobby Brown.mp3 */,
+				D3E327E414EDB97F001237A7 /* Carmen.mp3 */,
+				D3E327E414EDB97F001237A5 /* The Green Berets.mp3 */,
+				D3E327E414EDB97F001237A3 /* macho.mp3 */,
+				D3E327E414EDB97F001237A1 /* character.mp3 */,
+				D3E327E414EDB97F0012379F /* assets.mp3 */,
+				D3E327E414EDB97F0012379D /* multi-lingual capacity.mp3 */,
+				D3E327E414EDB97F0012379B /* sensuality.mp3 */,
+				D3E327E414EDB97F00123799 /* sexually, yeah.mp3 */,
+				D3E327E414EDB97F00123797 /* sexual oritentation.mp3 */,
+				D3E327E414EDB97F00123795 /* vivacity.mp3 */,
+				D3E327E414EDB97F00123793 /* aren't you for equality?.mp3 */,
+				D3E327E414EDB97F00123791 /* it was very difficult to believe.mp3 */,
+				D3E327E414EDB97F0012378F /* I think there may be a little bit of that.mp3 */,
+				D3E327E414EDB97F0012378D /* I suspect that it's more substantial.mp3 */,
+				D3E327E414EDB97F0012378B /* oh, I have been in love with him!.mp3 */,
+				D3E327E414EDB97F00123789 /* I see the soul of this man.mp3 */,
+				D3E327E414EDB97F00123787 /* that's what you get.mp3 */,
+				D3E327E414EDB97F00123785 /* what posessed you?.mp3 */,
+				D3E327E414EDB97F00123783 /* well I've certainly already paid more than 10 dollars.mp3 */,
+				D3E327E414EDB97F00123781 /* well I'm coming from a whole different perspective.mp3 */,
+				D3E327E414EDB97F0012377F /* the American way.mp3 */,
+				D3E327E414EDB97F0012377D /* I don't mean it sexually.mp3 */,
+				D3E327E414EDB97F0012377B /* ok let's hear it.mp3 */,
+				D3E327E414EDB97F00123779 /* and a big one.mp3 */,
+				D3E327E414EDB97F00123777 /* haha 15.mp3 */,
+				D3E327E414EDB97F00123775 /* haha 14.mp3 */,
+				D3E327E414EDB97F00123773 /* haha 13.mp3 */,
+				D3E327E414EDB97F00123771 /* haha 12.mp3 */,
+				D3E327E414EDB97F0012376F /* haha 11.mp3 */,
+				D3E327E414EDB97F0012376D /* haha 10.mp3 */,
+				D3E327E414EDB97F0012376B /* haha 9.mp3 */,
+				D3E327E414EDB97F00123769 /* haha 8.mp3 */,
+				D3E327E414EDB97F00123767 /* haha 7.mp3 */,
+				D3E327E414EDB97F00123765 /* haha 6.mp3 */,
+				D3E327E414EDB97F00123763 /* haha 5.mp3 */,
+				D3E327E414EDB97F00123761 /* haha 4.mp3 */,
+				D3E327E414EDB97F0012375F /* haha 3.mp3 */,
+				D3E327E414EDB97F0012375D /* haha 2.mp3 */,
+				D3E327E414EDB97F0012375B /* haha 1.mp3 */,
+				D3E327E414EDB97F00123759 /* futurama.png */,
+				D3E327E414EDB97F00123757 /* trek 2.png */,
+				D3E327E414EDB97F00123755 /* trek.png */,
+				D3E327E414EDB97F00123753 /* screaming.jpg */,
+				D3E327E414EDB97F00123751 /* happy.jpg */,
+				D3E327E414EDB97F0012374F /* in studio.jpg */,
+				D3E327E414EDB97F0012374D /* content.gif */,
+				D3E327E414EDB97F0012374B /* visionary.jpg */,
+				D3E327E414EDB97F00123749 /* surprised.gif */,
+				D3E327E414EDB97F00123747 /* leading.gif */,
+				D3E327E414EDB97F00123745 /* nonplussed.gif */,
 				D365002B14F077B000E7548F /* absolutely.mp3 */,
 				D365002C14F077B000E7548F /* hi.mp3 */,
 				D365002D14F077B000E7548F /* how are you.mp3 */,
@@ -226,6 +409,67 @@
 				D365003E14F077B000E7548F /* no, I have not.mp3 in Resources */,
 				D365003F14F077B000E7548F /* yes!.mp3 in Resources */,
 				D365004014F077B000E7548F /* yes?.mp3 in Resources */,
+				D3E327E414EDB97F00123746 /* nonplussed.gif in Resources */,
+				D3E327E414EDB97F00123748 /* leading.gif in Resources */,
+				D3E327E414EDB97F0012374A /* surprised.gif in Resources */,
+				D3E327E414EDB97F0012374C /* visionary.jpg in Resources */,
+				D3E327E414EDB97F0012374E /* content.gif in Resources */,
+				D3E327E414EDB97F00123750 /* in studio.jpg in Resources */,
+				D3E327E414EDB97F00123752 /* happy.jpg in Resources */,
+				D3E327E414EDB97F00123754 /* screaming.jpg in Resources */,
+				D3E327E414EDB97F00123756 /* trek.png in Resources */,
+				D3E327E414EDB97F00123758 /* trek 2.png in Resources */,
+				D3E327E414EDB97F0012375A /* futurama.png in Resources */,
+				D3E327E414EDB97F0012375C /* haha 1.mp3 in Resources */,
+				D3E327E414EDB97F0012375E /* haha 2.mp3 in Resources */,
+				D3E327E414EDB97F00123760 /* haha 3.mp3 in Resources */,
+				D3E327E414EDB97F00123762 /* haha 4.mp3 in Resources */,
+				D3E327E414EDB97F00123764 /* haha 5.mp3 in Resources */,
+				D3E327E414EDB97F00123766 /* haha 6.mp3 in Resources */,
+				D3E327E414EDB97F00123768 /* haha 7.mp3 in Resources */,
+				D3E327E414EDB97F0012376A /* haha 8.mp3 in Resources */,
+				D3E327E414EDB97F0012376C /* haha 9.mp3 in Resources */,
+				D3E327E414EDB97F0012376E /* haha 10.mp3 in Resources */,
+				D3E327E414EDB97F00123770 /* haha 11.mp3 in Resources */,
+				D3E327E414EDB97F00123772 /* haha 12.mp3 in Resources */,
+				D3E327E414EDB97F00123774 /* haha 13.mp3 in Resources */,
+				D3E327E414EDB97F00123776 /* haha 14.mp3 in Resources */,
+				D3E327E414EDB97F00123778 /* haha 15.mp3 in Resources */,
+				D3E327E414EDB97F0012377A /* and a big one.mp3 in Resources */,
+				D3E327E414EDB97F0012377C /* ok let's hear it.mp3 in Resources */,
+				D3E327E414EDB97F0012377E /* I don't mean it sexually.mp3 in Resources */,
+				D3E327E414EDB97F00123780 /* the American way.mp3 in Resources */,
+				D3E327E414EDB97F00123782 /* well I'm coming from a whole different perspective.mp3 in Resources */,
+				D3E327E414EDB97F00123784 /* well I've certainly already paid more than 10 dollars.mp3 in Resources */,
+				D3E327E414EDB97F00123786 /* what posessed you?.mp3 in Resources */,
+				D3E327E414EDB97F00123788 /* that's what you get.mp3 in Resources */,
+				D3E327E414EDB97F0012378A /* I see the soul of this man.mp3 in Resources */,
+				D3E327E414EDB97F0012378C /* oh, I have been in love with him!.mp3 in Resources */,
+				D3E327E414EDB97F0012378E /* I suspect that it's more substantial.mp3 in Resources */,
+				D3E327E414EDB97F00123790 /* I think there may be a little bit of that.mp3 in Resources */,
+				D3E327E414EDB97F00123792 /* it was very difficult to believe.mp3 in Resources */,
+				D3E327E414EDB97F00123794 /* aren't you for equality?.mp3 in Resources */,
+				D3E327E414EDB97F00123796 /* vivacity.mp3 in Resources */,
+				D3E327E414EDB97F00123798 /* sexual oritentation.mp3 in Resources */,
+				D3E327E414EDB97F0012379A /* sexually, yeah.mp3 in Resources */,
+				D3E327E414EDB97F0012379C /* sensuality.mp3 in Resources */,
+				D3E327E414EDB97F0012379E /* multi-lingual capacity.mp3 in Resources */,
+				D3E327E414EDB97F001237A0 /* assets.mp3 in Resources */,
+				D3E327E414EDB97F001237A2 /* character.mp3 in Resources */,
+				D3E327E414EDB97F001237A4 /* macho.mp3 in Resources */,
+				D3E327E414EDB97F001237A6 /* The Green Berets.mp3 in Resources */,
+				D3E327E414EDB97F001237A8 /* Carmen.mp3 in Resources */,
+				D3E327E414EDB97F001237AA /* Bobby Brown.mp3 in Resources */,
+				D3E327E414EDB97F001237AC /* John Wayne.mp3 in Resources */,
+				D3E327E414EDB97F001237AE /* I have high regard for his good taste.mp3 in Resources */,
+				D3E327E414EDB97F001237B0 /* he was reading the newspaper.mp3 in Resources */,
+				D3E327E414EDB97F001237B2 /* you're opinionated.mp3 in Resources */,
+				D3E327E414EDB97F001237B4 /* this is what makes America great.mp3 in Resources */,
+				D3E327E414EDB97F001237B6 /* embellish a little bit.mp3 in Resources */,
+				D3E327E414EDB97F001237B8 /* of course I am.mp3 in Resources */,
+				D3E327E414EDB97F001237BA /* you wanna say something?.mp3 in Resources */,
+				D3E327E414EDB97F001237BC /* magnificent.mp3 in Resources */,
+				D3E327E414EDB97F001237BE /* futurama 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
