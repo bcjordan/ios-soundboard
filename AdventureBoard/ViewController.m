@@ -5,12 +5,20 @@
 //  Created by Brian Jordan on 2/13/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
+//  Dedicated to the Apple App Store Reviewer currently reading this -
+//  one of the unsung heroes of the finger-swiping revolution. Hats off to you, my hardworking,
+//  kind, generous and George-Takei-soundboard-app-approving friend. If you read this, give me a sign -- any sign.
+//
+//  I just want to know that you exist and truly care about my beautiful, leak-free code.
+//
+//                   I want to believe.
+//
 
 #import "ViewController.h"
 
 @implementation ViewController
 
-@synthesize someLabel, volume, finn, _soundPlayers, _pictures, _headerImage, _slider;
+@synthesize someLabel, volume, _sliderImage, _soundPlayers, _pictures, _headerImage, _slider;
 
 - (void)viewDidLoad
 {
@@ -30,10 +38,6 @@
         [_pictures addObject:[UIImage imageWithContentsOfFile:path]];
         NSLog(@"Adding image with path %@ count %i", path, [_pictures count]);
     }
-
-
-    // TODO: Show an animated gif for fun
-    // Use method from http://www.alterplay.com/ios-dev-tips/2010/12/making-gif-animating-on-ios.html
 }
 
 - (void)constructButtonsAndPlayersFromClips:(NSArray*)soundClips
@@ -81,7 +85,6 @@
         [newButton setTitle:title forState:UIControlStateNormal];
         newButton.titleLabel.font = [UIFont systemFontOfSize:BUTTON_FONT_SIZE];
         newButton.titleLabel.adjustsFontSizeToFitWidth = YES;
-//        newButton.layer.backgroundColor = [[UIColor colorWithRed:0 green:0 blue:34 alpha:1] CGColor];
         [newButton addTarget:self action:@selector(playAudioForTitle:) forControlEvents:UIControlEventTouchUpInside];
 
         [newButton.titleLabel setLineBreakMode:UILineBreakModeTailTruncation];
@@ -137,20 +140,25 @@
     }
 
     [volume setText: [NSString stringWithFormat:@"%d", sliderValue]];
-    CGPoint finnPoint = slider.center;
-    finnPoint.x = finnPoint.x + slider.value * 350 - 170;
-    finnPoint.y = 1020 + (slider.value - .5) * (slider.value - .5) * -500;
-    [finn setCenter:finnPoint];
-    finn.alpha = 1 - (slider.value - .5) * (slider.value - .5) * 4;
-    NSLog(@"%f", finn.alpha);
+    CGPoint sliderImageCenter = slider.center;
+    
+    const float INIT_Y = 860.0;
+    
+    sliderImageCenter.x = sliderImageCenter.x + slider.value * 350 - 170;
+    sliderImageCenter.y = INIT_Y + (slider.value - .5) * (slider.value - .5) * (slider.value - .5) * -800;
+    [_sliderImage setCenter:sliderImageCenter];
+    _sliderImage.alpha = 1 - (slider.value - .5) * (slider.value - .5) * 4;
+    NSLog(@"%f", _sliderImage.alpha);
     [someLabel setText:[NSString stringWithFormat:@"Volume %d? Oh my!", sliderValue]];
     [someLabel setShadowColor:[[self randomColor] colorWithAlphaComponent:slider.value]];
 }
 
 -(IBAction)aboutThisApp:(id)sender
 {
-    UIAlertView *view = [[UIAlertView alloc]initWithTitle:@"The TakeiBoard"
-                                                  message:@"Thanks for using the George Takei sound board.\nRecord George's call and send it in!\nbcjordan@gmail.com"
+    UIAlertView *view = [[UIAlertView alloc]initWithTitle:@"Takei Board Version 1"
+                                                  message:@"Email me your suggestions, or record your "
+                                                           "Takei call and send it in!\ntakeiboard@gmail.com\n"
+                                                           "\n<3 Brian Jordan"
                                                  delegate:self
                                         cancelButtonTitle:@"Oh my!"
                                         otherButtonTitles:nil, nil];

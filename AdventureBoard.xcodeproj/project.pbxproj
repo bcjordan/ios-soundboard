@@ -27,11 +27,6 @@
 		D3847CB414E9EE7100168E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3847CB314E9EE7100168E61 /* AppDelegate.m */; };
 		D3847CB714E9EE7100168E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3847CB614E9EE7100168E61 /* ViewController.m */; };
 		D3847CBA14E9EE7100168E61 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3847CB814E9EE7100168E61 /* ViewController.xib */; };
-		D3E327DB14EDB42B00123744 /* at_test.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DA14EDB42B00123744 /* at_test.gif */; };
-		D3E327DE14EDB66C00123744 /* finn.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DD14EDB66C00123744 /* finn.png */; };
-		D3E327E214EDB97F00123744 /* iceking.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327DF14EDB97F00123744 /* iceking.png */; };
-		D3E327E314EDB97F00123744 /* jake.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E014EDB97F00123744 /* jake.png */; };
-		D3E327E414EDB97F00123744 /* lumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E114EDB97F00123744 /* lumpy.png */; };
 		D3E327E414EDB97F00123746 /* nonplussed.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123745 /* nonplussed.gif */; };
 		D3E327E414EDB97F00123748 /* leading.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123747 /* leading.gif */; };
 		D3E327E414EDB97F0012374A /* surprised.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F00123749 /* surprised.gif */; };
@@ -87,15 +82,18 @@
 		D3E327E414EDB97F001237AE /* I have high regard for his good taste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237AD /* I have high regard for his good taste.mp3 */; };
 		D3E327E414EDB97F001237B0 /* he was reading the newspaper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237AF /* he was reading the newspaper.mp3 */; };
 		D3E327E414EDB97F001237B2 /* you're opinionated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B1 /* you're opinionated.mp3 */; };
-		D3E327E414EDB97F001237B4 /* this is what makes America great.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B3 /* this is what makes America great.mp3 */; };
 		D3E327E414EDB97F001237B6 /* embellish a little bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B5 /* embellish a little bit.mp3 */; };
 		D3E327E414EDB97F001237B8 /* of course I am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B7 /* of course I am.mp3 */; };
 		D3E327E414EDB97F001237BA /* you wanna say something?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237B9 /* you wanna say something?.mp3 */; };
 		D3E327E414EDB97F001237BC /* magnificent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237BB /* magnificent.mp3 */; };
 		D3E327E414EDB97F001237BE /* futurama 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E327E414EDB97F001237BD /* futurama 2.png */; };
+		D3FC2C4214F2F53200147F34 /* blue icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FC2C4114F2F53200147F34 /* blue icon.png */; };
+		D3FC2C4914F2F61800147F34 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FC2C4814F2F61800147F34 /* Default-Portrait~ipad.png */; };
+		D3FC2C4B14F2FB2A00147F34 /* volume head.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FC2C4A14F2FB2A00147F34 /* volume head.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D338E47814F1AE1B0009EB81 /* AdventureBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AdventureBoard.entitlements; sourceTree = "<group>"; };
 		D33CA06614EB149F006A499B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D365002B14F077B000E7548F /* absolutely.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = absolutely.mp3; sourceTree = "<group>"; };
 		D365002C14F077B000E7548F /* hi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hi.mp3; sourceTree = "<group>"; };
@@ -108,7 +106,7 @@
 		D365003314F077B000E7548F /* no, I have not.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "no, I have not.mp3"; sourceTree = "<group>"; };
 		D365003414F077B000E7548F /* yes!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yes!.mp3"; sourceTree = "<group>"; };
 		D365003514F077B000E7548F /* yes?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yes?.mp3"; sourceTree = "<group>"; };
-		D3847C9F14E9EE7100168E61 /* AdventureBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3847C9F14E9EE7100168E61 /* Takei Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Takei Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3847CA314E9EE7100168E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3847CA514E9EE7100168E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3847CA714E9EE7100168E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,11 +119,6 @@
 		D3847CB514E9EE7100168E61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D3847CB614E9EE7100168E61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D3847CB914E9EE7100168E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		D3E327DA14EDB42B00123744 /* at_test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = at_test.gif; sourceTree = "<group>"; };
-		D3E327DD14EDB66C00123744 /* finn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finn.png; sourceTree = "<group>"; };
-		D3E327DF14EDB97F00123744 /* iceking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceking.png; sourceTree = "<group>"; };
-		D3E327E014EDB97F00123744 /* jake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jake.png; sourceTree = "<group>"; };
-		D3E327E114EDB97F00123744 /* lumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lumpy.png; sourceTree = "<group>"; };
 		D3E327E414EDB97F00123745 /* nonplussed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nonplussed.gif; sourceTree = "<group>"; };
 		D3E327E414EDB97F00123747 /* leading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leading.gif; sourceTree = "<group>"; };
 		D3E327E414EDB97F00123749 /* surprised.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = surprised.gif; sourceTree = "<group>"; };
@@ -181,12 +174,14 @@
 		D3E327E414EDB97F001237AD /* I have high regard for his good taste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I have high regard for his good taste.mp3"; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237AF /* he was reading the newspaper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "he was reading the newspaper.mp3"; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237B1 /* you're opinionated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you're opinionated.mp3"; sourceTree = "<group>"; };
-		D3E327E414EDB97F001237B3 /* this is what makes America great.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "this is what makes America great.mp3"; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237B5 /* embellish a little bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "embellish a little bit.mp3"; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237B7 /* of course I am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "of course I am.mp3"; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237B9 /* you wanna say something?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you wanna say something?.mp3"; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237BB /* magnificent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = magnificent.mp3; sourceTree = "<group>"; };
 		D3E327E414EDB97F001237BD /* futurama 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futurama 2.png"; sourceTree = "<group>"; };
+		D3FC2C4114F2F53200147F34 /* blue icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue icon.png"; sourceTree = "<group>"; };
+		D3FC2C4814F2F61800147F34 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		D3FC2C4A14F2FB2A00147F34 /* volume head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volume head.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,12 +202,12 @@
 		D365002A14F077B000E7548F /* takei */ = {
 			isa = PBXGroup;
 			children = (
+				D3FC2C4A14F2FB2A00147F34 /* volume head.png */,
 				D3E327E414EDB97F001237BD /* futurama 2.png */,
 				D3E327E414EDB97F001237BB /* magnificent.mp3 */,
 				D3E327E414EDB97F001237B9 /* you wanna say something?.mp3 */,
 				D3E327E414EDB97F001237B7 /* of course I am.mp3 */,
 				D3E327E414EDB97F001237B5 /* embellish a little bit.mp3 */,
-				D3E327E414EDB97F001237B3 /* this is what makes America great.mp3 */,
 				D3E327E414EDB97F001237B1 /* you're opinionated.mp3 */,
 				D3E327E414EDB97F001237AF /* he was reading the newspaper.mp3 */,
 				D3E327E414EDB97F001237AD /* I have high regard for his good taste.mp3 */,
@@ -286,6 +281,8 @@
 		D3847C9414E9EE7100168E61 = {
 			isa = PBXGroup;
 			children = (
+				D3FC2C4814F2F61800147F34 /* Default-Portrait~ipad.png */,
+				D3FC2C4114F2F53200147F34 /* blue icon.png */,
 				D33CA06614EB149F006A499B /* AVFoundation.framework */,
 				D3847CA914E9EE7100168E61 /* AdventureBoard */,
 				D3847CA214E9EE7100168E61 /* Frameworks */,
@@ -296,7 +293,7 @@
 		D3847CA014E9EE7100168E61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3847C9F14E9EE7100168E61 /* AdventureBoard.app */,
+				D3847C9F14E9EE7100168E61 /* Takei Board.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,6 +311,7 @@
 		D3847CA914E9EE7100168E61 /* AdventureBoard */ = {
 			isa = PBXGroup;
 			children = (
+				D338E47814F1AE1B0009EB81 /* AdventureBoard.entitlements */,
 				D3847CB214E9EE7100168E61 /* AppDelegate.h */,
 				D3847CB314E9EE7100168E61 /* AppDelegate.m */,
 				D3847CB514E9EE7100168E61 /* ViewController.h */,
@@ -329,11 +327,6 @@
 			children = (
 				D365002A14F077B000E7548F /* takei */,
 				D3847CAB14E9EE7100168E61 /* AdventureBoard-Info.plist */,
-				D3E327DF14EDB97F00123744 /* iceking.png */,
-				D3E327E014EDB97F00123744 /* jake.png */,
-				D3E327E114EDB97F00123744 /* lumpy.png */,
-				D3E327DA14EDB42B00123744 /* at_test.gif */,
-				D3E327DD14EDB66C00123744 /* finn.png */,
 				D3847CAC14E9EE7100168E61 /* InfoPlist.strings */,
 				D3847CAF14E9EE7100168E61 /* main.m */,
 				D3847CB114E9EE7100168E61 /* AdventureBoard-Prefix.pch */,
@@ -344,9 +337,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3847C9E14E9EE7100168E61 /* AdventureBoard */ = {
+		D3847C9E14E9EE7100168E61 /* Takei Board */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3847CBD14E9EE7100168E61 /* Build configuration list for PBXNativeTarget "AdventureBoard" */;
+			buildConfigurationList = D3847CBD14E9EE7100168E61 /* Build configuration list for PBXNativeTarget "Takei Board" */;
 			buildPhases = (
 				D3847C9B14E9EE7100168E61 /* Sources */,
 				D3847C9C14E9EE7100168E61 /* Frameworks */,
@@ -356,9 +349,9 @@
 			);
 			dependencies = (
 			);
-			name = AdventureBoard;
+			name = "Takei Board";
 			productName = AdventureBoard;
-			productReference = D3847C9F14E9EE7100168E61 /* AdventureBoard.app */;
+			productReference = D3847C9F14E9EE7100168E61 /* Takei Board.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -381,7 +374,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3847C9E14E9EE7100168E61 /* AdventureBoard */,
+				D3847C9E14E9EE7100168E61 /* Takei Board */,
 			);
 		};
 /* End PBXProject section */
@@ -393,11 +386,6 @@
 			files = (
 				D3847CAE14E9EE7100168E61 /* InfoPlist.strings in Resources */,
 				D3847CBA14E9EE7100168E61 /* ViewController.xib in Resources */,
-				D3E327DB14EDB42B00123744 /* at_test.gif in Resources */,
-				D3E327DE14EDB66C00123744 /* finn.png in Resources */,
-				D3E327E214EDB97F00123744 /* iceking.png in Resources */,
-				D3E327E314EDB97F00123744 /* jake.png in Resources */,
-				D3E327E414EDB97F00123744 /* lumpy.png in Resources */,
 				D365003614F077B000E7548F /* absolutely.mp3 in Resources */,
 				D365003714F077B000E7548F /* hi.mp3 in Resources */,
 				D365003814F077B000E7548F /* how are you.mp3 in Resources */,
@@ -464,12 +452,14 @@
 				D3E327E414EDB97F001237AE /* I have high regard for his good taste.mp3 in Resources */,
 				D3E327E414EDB97F001237B0 /* he was reading the newspaper.mp3 in Resources */,
 				D3E327E414EDB97F001237B2 /* you're opinionated.mp3 in Resources */,
-				D3E327E414EDB97F001237B4 /* this is what makes America great.mp3 in Resources */,
 				D3E327E414EDB97F001237B6 /* embellish a little bit.mp3 in Resources */,
 				D3E327E414EDB97F001237B8 /* of course I am.mp3 in Resources */,
 				D3E327E414EDB97F001237BA /* you wanna say something?.mp3 in Resources */,
 				D3E327E414EDB97F001237BC /* magnificent.mp3 in Resources */,
 				D3E327E414EDB97F001237BE /* futurama 2.png in Resources */,
+				D3FC2C4214F2F53200147F34 /* blue icon.png in Resources */,
+				D3FC2C4914F2F61800147F34 /* Default-Portrait~ipad.png in Resources */,
+				D3FC2C4B14F2FB2A00147F34 /* volume head.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +504,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -529,6 +520,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = TakeiBoard;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -540,7 +534,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -549,6 +544,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = TakeiBoard;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -561,7 +559,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdventureBoard/AdventureBoard-Prefix.pch";
 				INFOPLIST_FILE = "AdventureBoard/AdventureBoard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Takei Board";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -572,7 +572,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdventureBoard/AdventureBoard-Prefix.pch";
 				INFOPLIST_FILE = "AdventureBoard/AdventureBoard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Takei Board";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -589,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3847CBD14E9EE7100168E61 /* Build configuration list for PBXNativeTarget "AdventureBoard" */ = {
+		D3847CBD14E9EE7100168E61 /* Build configuration list for PBXNativeTarget "Takei Board" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3847CBE14E9EE7100168E61 /* Debug */,

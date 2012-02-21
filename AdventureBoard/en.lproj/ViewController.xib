@@ -41,17 +41,17 @@
 					<object class="IBUIImageView" id="548129273">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{397, 909}, {126, 223}}</string>
+						<string key="NSFrame">{{426, 809}, {74, 103}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="682032872"/>
+						<reference key="NSNextKeyView" ref="864695522"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
-						<int key="IBUIContentMode">1</int>
+						<int key="IBUIContentMode">4</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">futurama 2.png</string>
+							<string key="NSResourceName">volume head.png</string>
 						</object>
 					</object>
 					<object class="IBUIButton" id="682032872">
@@ -98,7 +98,7 @@
 						<string key="NSFrame">{{20, 950}, {172, 44}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="548129273"/>
+						<reference key="NSNextKeyView" ref="682032872"/>
 						<string key="NSReuseIdentifierKey">_NS:241</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUITag">1</int>
@@ -120,7 +120,7 @@
 					<object class="IBUILabel" id="190137930">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{203, 16}, {538, 158}}</string>
+						<string key="NSFrame">{{199, 0}, {549, 190}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="205738185"/>
@@ -157,7 +157,7 @@
 						<string key="NSFrame">{{250, 909}, {426, 23}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="864695522"/>
+						<reference key="NSNextKeyView" ref="548129273"/>
 						<string key="NSReuseIdentifierKey">_NS:624</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -323,7 +323,7 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">finn</string>
+						<string key="label">_sliderImage</string>
 						<reference key="source" ref="841351856"/>
 						<reference key="destination" ref="548129273"/>
 					</object>
@@ -386,8 +386,8 @@
 							<reference ref="708633734"/>
 							<reference ref="205738185"/>
 							<reference ref="730919711"/>
-							<reference ref="548129273"/>
 							<reference ref="864695522"/>
+							<reference ref="548129273"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -499,7 +499,7 @@
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="_headerImage">UIImageView</string>
 						<string key="_slider">UISlider</string>
-						<string key="finn">UIImageView</string>
+						<string key="_sliderImage">UIImageView</string>
 						<string key="someLabel">UILabel</string>
 						<string key="volume">UILabel</string>
 					</dictionary>
@@ -512,8 +512,8 @@
 							<string key="name">_slider</string>
 							<string key="candidateClassName">UISlider</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="finn">
-							<string key="name">finn</string>
+						<object class="IBToOneOutletInfo" key="_sliderImage">
+							<string key="name">_sliderImage</string>
 							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="someLabel">
@@ -537,8 +537,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="futurama 2.png">{308, 500}</string>
 			<string key="happy.jpg">{624, 936}</string>
+			<string key="volume head.png">{58, 94}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>

@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) IBOutlet UILabel *someLabel; // Then synthesize in .m
 @property (nonatomic, strong) IBOutlet UILabel *volume;
-@property (nonatomic, strong) IBOutlet UIImageView *finn;
+@property (nonatomic, strong) IBOutlet UIImageView *_sliderImage;
 @property (nonatomic, strong) IBOutlet UIImageView *_headerImage;
 @property (nonatomic, strong) IBOutlet UISlider *_slider;
 @property (strong) NSMutableDictionary *_soundPlayers; // Title to player
